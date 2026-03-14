@@ -1,0 +1,61 @@
+# Function without parameters
+
+def addition():
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    print("Sum:", x+y)
+
+if __name__ == "__main__":
+    addition()
+
+
+
+# Function with parameters
+
+def add(a,b):
+    total = a + b
+    print("Result:",total)
+
+a = int(input("Enter value: "))
+b = int(input("Enter value: "))
+add(a,b)
+
+
+
+# Function returning value
+
+def multiply(a,b):
+    return a*b
+
+x = int(input("Enter number: "))
+y = int(input("Enter number: "))
+
+ans = multiply(x,y)
+print("Multiplication:",ans)
+
+
+
+# List Example
+
+numbers = [10,20,30,40,50]
+
+for item in numbers:
+    print(item)
+
+numbers.append(60)
+
+print("Updated list:",numbers)
+print("First element:",numbers[0])
+print("Last element:",numbers[-1])
+
+
+
+# String reverse without built-in function
+
+text = "Python"
+rev = ""
+
+for ch in text:
+    rev = ch + rev
+
+print("Reverse:",rev)
