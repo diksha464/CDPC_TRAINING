@@ -1,0 +1,122 @@
+Python Program – Reverse a 3 Digit Number
+
+num = int(input("Enter a three digit number: "))
+
+d1 = num % 10
+num = num // 10
+d2 = num % 10
+d3 = num // 10
+
+reverse = d1*100 + d2*10 + d3
+print("Reversed number:", reverse)
+
+Example
+Input: 456
+Output: 654
+
+
+ALGORITHMS AND DATA STRUCTURES
+
+Algorithm
+An algorithm is a sequence of well-defined steps used to solve a particular problem in programming.
+
+Example:
+Searching an element
+Sorting numbers
+Calculating factorial
+
+
+Data Structure
+A data structure is a method of storing and organizing data so it can be used efficiently.
+
+Examples:
+Array
+Stack
+Queue
+Linked List
+Tree
+Graph
+
+
+Types of Data Structures
+
+1. Primitive Data Structures
+These are basic data types already available in programming languages.
+
+Examples:
+Integer
+Float
+Boolean
+Character
+String
+
+
+2. Non-Primitive Data Structures
+
+Linear Data Structures
+Elements are stored in sequence.
+
+Examples:
+Array
+Stack
+Queue
+Linked List
+
+
+Non-Linear Data Structures
+Data is arranged in hierarchical form.
+
+Examples:
+Tree
+Graph
+
+
+BIG O NOTATION
+
+Big O notation represents the performance of an algorithm as the size of input increases.
+
+Types of Complexity
+
+Time Complexity
+Time taken by an algorithm to run.
+
+Space Complexity
+Memory required by an algorithm.
+
+
+Common Time Complexities
+
+O(1) → Constant
+O(n) → Linear
+O(log n) → Logarithmic
+O(n²) → Quadratic
+O(2ⁿ) → Exponential
+
+
+Complexity Rules
+
+Single instruction → O(1)
+
+Example
+a = 10
+
+
+Single loop → O(n)
+
+for i in range(n):
+    print(i)
+
+
+Nested loop → O(n²)
+
+for i in range(n):
+    for j in range(n):
+        print(i,j)
+
+
+Reducing input by half → O(log n)
+
+n = 64
+while n > 1:
+    n = n // 2
+    print(n)
