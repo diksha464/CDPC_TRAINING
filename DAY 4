@@ -1,0 +1,48 @@
+# CDPC Training - Day 4
+# Student Name: Diksha Tiwari
+
+
+# Hello World Program
+print("Hello, World!")
+print("This program is written by Diksha Tiwari")
+
+
+# If Else Example
+
+n = int(input("Enter number: "))
+
+if n % 2 != 0:
+    print("Weird")
+elif n >= 2 and n <= 5:
+    print("Not Weird")
+elif n >= 6 and n <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
+
+
+# Arithmetic operations
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Addition:", a+b)
+print("Subtraction:", a-b)
+print("Multiplication:", a*b)
+
+
+# Division
+
+x = int(input("Enter number: "))
+y = int(input("Enter number: "))
+
+print("Integer Division:", x//y)
+print("Float Division:", x/y)
+
+
+# Square numbers using loop
+
+num = int(input("Enter limit: "))
+
+for i in range(num):
+    print(i*i)
